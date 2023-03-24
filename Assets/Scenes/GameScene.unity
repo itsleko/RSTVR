@@ -16867,9 +16867,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ef2431711c51941917c96b1ea8ae83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actions: []
-  MessageSpawnPoint: {x: 0, y: 0}
-  MessagePref: {fileID: 0}
+  actions:
+  - Purpose: 
+    Mistake: 
+    Right: 
+  MessageSpawnPoint: {x: 0, y: 0.034}
+  MessagePref: {fileID: 378153218575451835, guid: 5ddd0388004a27a489567a43e517b8fc, type: 3}
 --- !u!1 &370610019
 GameObject:
   m_ObjectHideFlags: 0
@@ -89925,7 +89928,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ConnectedWirePos: {fileID: 793174376}
-  IsTrueWireInput: 0
+  IsTrueWireInput: 1
 --- !u!54 &2009750628
 Rigidbody:
   m_ObjectHideFlags: 0
