@@ -1,0 +1,532 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.13f1 (9e7d58001ecf) revision 10386776'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16317 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2021.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/Users/USER/Documents/GitHub/RSTVR
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+63511
+Successfully changed project path to: D:/Users/USER/Documents/GitHub/RSTVR
+D:/Users/USER/Documents/GitHub/RSTVR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 104.80 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path D:/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Users/USER/Documents/GitHub/RSTVR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'D:/2021.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2021.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008289 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 80.13 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.615 seconds
+Domain Reload Profiling:
+	ReloadAssembly (616ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (432ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (95ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008352 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\USER\Documents\GitHub\RSTVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\USER\Documents\GitHub\RSTVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.145 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1145ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (824ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (297ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3690 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (114.0 KB). Loaded Objects now: 4153.
+Memory consumption went from 132.9 MB to 132.8 MB.
+Total: 2.962800 ms (FindLiveObjects: 0.259200 ms CreateObjectMapping: 0.198800 ms MarkObjects: 2.411200 ms  DeleteObjects: 0.093000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 406144.270186 seconds.
+  path: Assets/Models/готово/textures
+  artifactKey: Guid(dc25d13b30e8ea24cb740a34b0ec290b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures using Guid(dc25d13b30e8ea24cb740a34b0ec290b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a528c9a5a1dcf7fcdd2e3ed0b5c096') in 0.006703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.051937 seconds.
+  path: Assets/Models/готово/textures/Лабораторный автотрансформатор трехфазный
+  artifactKey: Guid(b1c2d5951ba151a47832786170f1b814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/Лабораторный автотрансформатор трехфазный using Guid(b1c2d5951ba151a47832786170f1b814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96e5004fbb0ebb7b97aece86231a85e') in 0.001219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055783 seconds.
+  path: Assets/Models/готово/textures/Лабораторный автотрансформатор трехфазный/Material_Base_color.png
+  artifactKey: Guid(394d417614527014c86503aae841936f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/Лабораторный автотрансформатор трехфазный/Material_Base_color.png using Guid(394d417614527014c86503aae841936f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922a46e034d4c1acf30db3631a357d3d') in 0.068839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/готово/textures/Лабораторный автотрансформатор трехфазный/Material_Roughness.png
+  artifactKey: Guid(3ad3ffa04fcd5e24bb2689260ed7c6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/Лабораторный автотрансформатор трехфазный/Material_Roughness.png using Guid(3ad3ffa04fcd5e24bb2689260ed7c6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b34c954e77b84bd8ea10b16d69790a8') in 0.013893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/готово/textures/Лабораторный автотрансформатор трехфазный/Material_Metallic.png
+  artifactKey: Guid(af6575b5917401844968fb8839363f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/Лабораторный автотрансформатор трехфазный/Material_Metallic.png using Guid(af6575b5917401844968fb8839363f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d8908c9eb6abc2de3259b888621d30') in 0.014867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.312949 seconds.
+  path: Assets/Models/готово/textures/Лабораторный автотрансформатор трехфазный/Material_Normal_OpenGL.png
+  artifactKey: Guid(dedb79cc4bebdf949bb554f6d31763b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/Лабораторный автотрансформатор трехфазный/Material_Normal_OpenGL.png using Guid(dedb79cc4bebdf949bb554f6d31763b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5cbb9003b1d391c369890d7d4743dd') in 0.029503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.418049 seconds.
+  path: Assets/Models/готово/textures/Прибор сравнения КНТ-05/Material.001_Base_color.png
+  artifactKey: Guid(e1cb36acb1f8fff46a1770da25bb2654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/Прибор сравнения КНТ-05/Material.001_Base_color.png using Guid(e1cb36acb1f8fff46a1770da25bb2654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f2102358142548958f6a10cdf9c382') in 0.007143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/готово/textures/Прибор сравнения КНТ-05/Material.002_Base_color.png
+  artifactKey: Guid(0e2b18b680dba62498f4190cd2634511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/Прибор сравнения КНТ-05/Material.002_Base_color.png using Guid(0e2b18b680dba62498f4190cd2634511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e3af3b9fc0844a9a175ee455a3fd78') in 0.010667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/готово/textures/Прибор сравнения КНТ-05/Material.002_Mixed_AO.png
+  artifactKey: Guid(effc51d046d367540ba0b4eccce7cf33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/Прибор сравнения КНТ-05/Material.002_Mixed_AO.png using Guid(effc51d046d367540ba0b4eccce7cf33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7322b5594bc297672fbbf238c5c43068') in 0.006865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/готово/textures/Прибор сравнения КНТ-05/Прибор сравнения КНТ-05_1.mat
+  artifactKey: Guid(4096e3d1f34390e4999d8d7166d53724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/Прибор сравнения КНТ-05/Прибор сравнения КНТ-05_1.mat using Guid(4096e3d1f34390e4999d8d7166d53724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec87c169f536bb34f16fcc667ff1b647') in 0.047590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.941752 seconds.
+  path: Assets/Models/готово/textures/Трансформатор напряжения НЛЛ-10/Material_Base_color.png
+  artifactKey: Guid(8ee8776182e80084b8667b2f5f42c398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/Трансформатор напряжения НЛЛ-10/Material_Base_color.png using Guid(8ee8776182e80084b8667b2f5f42c398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b80b3b0aac274e43d5338e9b2cc84e') in 0.012226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/готово/textures/Трансформатор напряжения НЛЛ-10/Material_Normal_OpenGL.png
+  artifactKey: Guid(d0623fbc911937247a77b8836477d197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/Трансформатор напряжения НЛЛ-10/Material_Normal_OpenGL.png using Guid(d0623fbc911937247a77b8836477d197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480a93e94f4a06ada84d82a643d08d44') in 0.009231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.381178 seconds.
+  path: Assets/Models/готово/textures/Трансформатор напряжения НЛЛ-10/Material_Normal_OpenGL.png
+  artifactKey: Guid(d0623fbc911937247a77b8836477d197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/Трансформатор напряжения НЛЛ-10/Material_Normal_OpenGL.png using Guid(d0623fbc911937247a77b8836477d197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e510ff7cca402fa4432ad2e5e74c9505') in 0.006054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.778075 seconds.
+  path: Assets/Models/готово/textures/Прибор сравнения КНТ-05/Material.001_Normal_OpenGL.png
+  artifactKey: Guid(41464b2d7a1fa1843862bd90bfbd8795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/Прибор сравнения КНТ-05/Material.001_Normal_OpenGL.png using Guid(41464b2d7a1fa1843862bd90bfbd8795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc7c83db0c84f6f392e4084fb5b0eac') in 0.006012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.919762 seconds.
+  path: Assets/Models/готово/textures/Прибор сравнения КНТ-05/Material.002_Normal_OpenGL.png
+  artifactKey: Guid(214b302da70515f4d8060d340df40b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/Прибор сравнения КНТ-05/Material.002_Normal_OpenGL.png using Guid(214b302da70515f4d8060d340df40b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9e7db965756e155df30002612ba0bb') in 0.013909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.894683 seconds.
+  path: Assets/Models/готово/textures/Трансформатор напряжения ОЛ-110У3
+  artifactKey: Guid(28558e84fe386ba439bc228615235823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/Трансформатор напряжения ОЛ-110У3 using Guid(28558e84fe386ba439bc228615235823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378e083428ba56aeb1b5e5af51bc56e8') in 0.001605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051352 seconds.
+  path: Assets/Models/готово/textures/Трансформатор напряжения ОЛ-110У3/DefaultMaterial_Base_color.png
+  artifactKey: Guid(a0ae349b79bfea74e892e6f5022f8a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/Трансформатор напряжения ОЛ-110У3/DefaultMaterial_Base_color.png using Guid(a0ae349b79bfea74e892e6f5022f8a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1639f425658e443bca2e031ed5b1fd') in 0.005285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/готово/textures/Трансформатор напряжения ОЛ-110У3/Трансформатор напряжения ОЛ-110У3.mat
+  artifactKey: Guid(de3735cb78d29b5489fbf3d54c39eeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/Трансформатор напряжения ОЛ-110У3/Трансформатор напряжения ОЛ-110У3.mat using Guid(de3735cb78d29b5489fbf3d54c39eeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2756c4021142e6f32ce42fd3c8724350') in 0.005927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.456428 seconds.
+  path: Assets/Models/готово/textures/Трансформатор напряжения ОЛ-110У3/DefaultMaterial_Normal_OpenGL.png
+  artifactKey: Guid(8127b33c809982b47a506e5a2af67c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/Трансформатор напряжения ОЛ-110У3/DefaultMaterial_Normal_OpenGL.png using Guid(8127b33c809982b47a506e5a2af67c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5980f9ba5a176a999ef26029f923c6f0') in 0.006362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.602863 seconds.
+  path: Assets/Models/готово/textures/магазин нагрузок
+  artifactKey: Guid(b1e84faa71f83224caffcde8eb2490c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/магазин нагрузок using Guid(b1e84faa71f83224caffcde8eb2490c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6493d0947a19cb6e706a5c9dd6185a1a') in 0.001358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055264 seconds.
+  path: Assets/Models/готово/textures/магазин нагрузок/Material.001_Base_color.png
+  artifactKey: Guid(bbcd29f5455953644ba438ad0bb7b3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/магазин нагрузок/Material.001_Base_color.png using Guid(bbcd29f5455953644ba438ad0bb7b3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2916c652d695ed610164a0df2d77cf7') in 0.006874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/готово/textures/магазин нагрузок/магазин нагрузок МР3025.mat
+  artifactKey: Guid(829f37398bfa1824e93ab7fcbf04c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/магазин нагрузок/магазин нагрузок МР3025.mat using Guid(829f37398bfa1824e93ab7fcbf04c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe837fa6f66692167a5e298d941edad') in 0.006618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/готово/textures/магазин нагрузок/Material.001_Roughness.png
+  artifactKey: Guid(4e9dced6a827b2b40bb6182a83736218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/магазин нагрузок/Material.001_Roughness.png using Guid(4e9dced6a827b2b40bb6182a83736218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b005c539e1e57897a6ce4292bf83ff85') in 0.006992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.916713 seconds.
+  path: Assets/Models/готово/textures/магазин нагрузок/Material.001_Normal_OpenGL.png
+  artifactKey: Guid(3e11675fcd69a1144bcabfb568e97b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/магазин нагрузок/Material.001_Normal_OpenGL.png using Guid(3e11675fcd69a1144bcabfb568e97b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27f18102263c2343ce936ffcc8ec9ab') in 0.007104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.016531 seconds.
+  path: Assets/Models/готово/textures/Прибор сравнения КНТ-05
+  artifactKey: Guid(4bc48a5fff55a78449d8ac71f00d4590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/Прибор сравнения КНТ-05 using Guid(4bc48a5fff55a78449d8ac71f00d4590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ba74db92908ead35d667f479a520f0') in 0.001540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 140.901406 seconds.
+  path: Assets/Models/готово/textures/Трансформатор напряжения НЛЛ-10
+  artifactKey: Guid(b0f04318b2b42df4c9a35a327a020111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/готово/textures/Трансформатор напряжения НЛЛ-10 using Guid(b0f04318b2b42df4c9a35a327a020111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e80e41206d14ce5e21407ae7fae9a4') in 0.001312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 500.052637 seconds.
+  path: Assets/Models/textures
+  artifactKey: Guid(56949492f42177b4788f0c9721fbc1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/textures using Guid(56949492f42177b4788f0c9721fbc1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41623c08ba1415d4f066cb76a5636a64') in 0.001674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.480567 seconds.
+  path: Assets/Models/textures/магазин нагрузок
+  artifactKey: Guid(a016d149557cbd347923e758137e1607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/textures/магазин нагрузок using Guid(a016d149557cbd347923e758137e1607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f17aae8d0d315c80dfd6b091527683') in 0.001387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.072440 seconds.
+  path: Assets/Models/textures/магазин нагрузок/Material.001_Base_color.png
+  artifactKey: Guid(f3a2ceef31270cb45834038e913c1123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/textures/магазин нагрузок/Material.001_Base_color.png using Guid(f3a2ceef31270cb45834038e913c1123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1edb4bc363f96546412b3a5bb58a1b96') in 0.007946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/textures/магазин нагрузок/Material.001_Metallic.png
+  artifactKey: Guid(f9cc43b62848644438be658cdcfecc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/textures/магазин нагрузок/Material.001_Metallic.png using Guid(f9cc43b62848644438be658cdcfecc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c4d087c932c28c2f7655f887aa1a81') in 0.006786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/textures/магазин нагрузок/магазин нагрузок МР3025.mat
+  artifactKey: Guid(8f888ad07abcc894fabddd16bae24f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/textures/магазин нагрузок/магазин нагрузок МР3025.mat using Guid(8f888ad07abcc894fabddd16bae24f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991d42166cf9d22c4cd57b34d383306a') in 0.007681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/textures/магазин нагрузок/Material.001_Normal_OpenGL.png
+  artifactKey: Guid(ec4e919f09a772244a939430e2548776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/textures/магазин нагрузок/Material.001_Normal_OpenGL.png using Guid(ec4e919f09a772244a939430e2548776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7056d2890ce37ec216aa4037f303d986') in 0.007236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/textures/магазин нагрузок/Material.001_Roughness.png
+  artifactKey: Guid(92fbc51d67a41384cb5590b63ae9f71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/textures/магазин нагрузок/Material.001_Roughness.png using Guid(92fbc51d67a41384cb5590b63ae9f71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439c791b6d394c623fc0c7a36f71f869') in 0.006979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.761954 seconds.
+  path: Assets/Models/textures/магазин нагрузок/Material.001_Normal_OpenGL.png
+  artifactKey: Guid(ec4e919f09a772244a939430e2548776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/textures/магазин нагрузок/Material.001_Normal_OpenGL.png using Guid(ec4e919f09a772244a939430e2548776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a327633f688cb7b572785f2e3584ee') in 0.007535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 189.867199 seconds.
+  path: Assets/Models/Transformator
+  artifactKey: Guid(47f282d5aa02ffd45b440ac8ce01daac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Transformator using Guid(47f282d5aa02ffd45b440ac8ce01daac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d644ccb0c9ecfc88d07b663e131e090') in 0.001213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 304.864041 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(b8c50360b9f5d4944aef360b80833b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(b8c50360b9f5d4944aef360b80833b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f047a573969766467d4196d933adb7b') in 0.001713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.386756 seconds.
+  path: Assets/Prefabs/MessagePref.prefab
+  artifactKey: Guid(5ddd0388004a27a489567a43e517b8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MessagePref.prefab using Guid(5ddd0388004a27a489567a43e517b8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3baf0f6a98873a06f60f9b965d76d4') in 0.040729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 301.979791 seconds.
+  path: Assets/Models/Transformator/source
+  artifactKey: Guid(6a7f193c3a51d0f44bc377ab908dde18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Transformator/source using Guid(6a7f193c3a51d0f44bc377ab908dde18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca5f71deb22b136b51659760e92da5a') in 0.001346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053252 seconds.
+  path: Assets/Models/Transformator/source/New Material.mat
+  artifactKey: Guid(bc63b09ccfd5805438fe07156d7c76ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Transformator/source/New Material.mat using Guid(bc63b09ccfd5805438fe07156d7c76ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610697065db8e44b503eb8107f41b52c') in 0.009576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.461065 seconds.
+  path: Assets/Models/Transformator/textures
+  artifactKey: Guid(dbd7654d3a4e5024b81e28afbb9af401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Transformator/textures using Guid(dbd7654d3a4e5024b81e28afbb9af401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92a8870d38d944462b7f780846bc7e9') in 0.001109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062700 seconds.
+  path: Assets/Models/Transformator/textures/Transformator_low_DefaultMaterial_BaseColor.png
+  artifactKey: Guid(036524f7460dfea40ac870e6e19c2302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Transformator/textures/Transformator_low_DefaultMaterial_BaseColor.png using Guid(036524f7460dfea40ac870e6e19c2302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff21785b63d01cc2c48ef6c1a0484f0') in 0.012310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Transformator/textures/Transformator_low_DefaultMaterial_OcclusionRoughnessMetallic.png
+  artifactKey: Guid(b328ba71fe881504f84133ee7568079f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Transformator/textures/Transformator_low_DefaultMaterial_OcclusionRoughnessMetallic.png using Guid(b328ba71fe881504f84133ee7568079f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db0af98c952918be3297e31133f801f') in 0.021074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 208.668898 seconds.
+  path: Assets/Models/Трансформатор напряжения ОЛ-110У3.fbx
+  artifactKey: Guid(70795c374117092458195996ba3995ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Трансформатор напряжения ОЛ-110У3.fbx using Guid(70795c374117092458195996ba3995ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3405cd4698dc7fd79308608ae1b7ea') in 0.061616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.673948 seconds.
+  path: Assets/Models/textures/Трансформатор напряжения ОЛ-110У3
+  artifactKey: Guid(31c3c02304163f847b699884ce5cdd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/textures/Трансформатор напряжения ОЛ-110У3 using Guid(31c3c02304163f847b699884ce5cdd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78796f7fb9b569ca46d481c7a7cc91d2') in 0.001294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.178465 seconds.
+  path: Assets/Models/textures/Трансформатор напряжения ОЛ-110У3/DefaultMaterial_Base_color.png
+  artifactKey: Guid(7f676f112cfa4d04c9cb8e8e964fb187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/textures/Трансформатор напряжения ОЛ-110У3/DefaultMaterial_Base_color.png using Guid(7f676f112cfa4d04c9cb8e8e964fb187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c815a3546695c26e60636b0396ff99') in 0.005615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/textures/Трансформатор напряжения ОЛ-110У3/DefaultMaterial_Roughness.png
+  artifactKey: Guid(04801092e3f1eec488fe04ea9e592b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/textures/Трансформатор напряжения ОЛ-110У3/DefaultMaterial_Roughness.png using Guid(04801092e3f1eec488fe04ea9e592b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d720c0d054e33f0bee9e8245ea9ac9') in 0.005979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.701099 seconds.
+  path: Assets/Models/textures/Трансформатор напряжения ОЛ-110У3/DefaultMaterial_Normal_OpenGL.png
+  artifactKey: Guid(d4c92f5362a03784d90d4646324df8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/textures/Трансформатор напряжения ОЛ-110У3/DefaultMaterial_Normal_OpenGL.png using Guid(d4c92f5362a03784d90d4646324df8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9004bcd4ee612e7ae6303c2c54f8669d') in 0.005512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.161014 seconds.
+  path: Assets/Models/textures/Трансформатор напряжения ОЛ-110У3/DefaultMaterial_Base_color.png
+  artifactKey: Guid(7f676f112cfa4d04c9cb8e8e964fb187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/textures/Трансформатор напряжения ОЛ-110У3/DefaultMaterial_Base_color.png using Guid(7f676f112cfa4d04c9cb8e8e964fb187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f373af0e0f4d073167800c571777ac') in 0.005618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/textures/Трансформатор напряжения ОЛ-110У3/DefaultMaterial_Normal_OpenGL.png
+  artifactKey: Guid(d4c92f5362a03784d90d4646324df8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/textures/Трансформатор напряжения ОЛ-110У3/DefaultMaterial_Normal_OpenGL.png using Guid(d4c92f5362a03784d90d4646324df8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b53695616da9c8eb402e15c28b7e57') in 0.007642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/textures/Трансформатор напряжения ОЛ-110У3/DefaultMaterial_Roughness.png
+  artifactKey: Guid(04801092e3f1eec488fe04ea9e592b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/textures/Трансформатор напряжения ОЛ-110У3/DefaultMaterial_Roughness.png using Guid(04801092e3f1eec488fe04ea9e592b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0ac0cb249d50a1e4a7304f3fe198ec') in 0.006751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.616238 seconds.
+  path: Assets/Models/textures/Трансформатор напряжения ОЛ-110У3/New Material.mat
+  artifactKey: Guid(8bb60d4b6a1f77b42af57da7fab8a824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/textures/Трансформатор напряжения ОЛ-110У3/New Material.mat using Guid(8bb60d4b6a1f77b42af57da7fab8a824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40476368fcd229aff2cfc812ed914d90') in 0.006307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.506327 seconds.
+  path: Assets/Models/textures/Трансформатор напряжения ОЛ-110У3/DefaultMaterial_Normal_OpenGL.png
+  artifactKey: Guid(d4c92f5362a03784d90d4646324df8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/textures/Трансформатор напряжения ОЛ-110У3/DefaultMaterial_Normal_OpenGL.png using Guid(d4c92f5362a03784d90d4646324df8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab52e7e22ca840b7ed92f41c8bc84d2a') in 0.005553 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008109 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\USER\Documents\GitHub\RSTVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\USER\Documents\GitHub\RSTVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.003 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1003ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (767ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.50 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3652 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (81.0 KB). Loaded Objects now: 4206.
+Memory consumption went from 134.9 MB to 134.9 MB.
+Total: 3.356400 ms (FindLiveObjects: 0.297900 ms CreateObjectMapping: 0.175200 ms MarkObjects: 2.800500 ms  DeleteObjects: 0.082000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

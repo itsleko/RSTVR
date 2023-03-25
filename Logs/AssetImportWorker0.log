@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.13f1 (9e7d58001ecf) revision 10386776'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 32605 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16317 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Unity.exe
+D:\2021.3.13f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/user/Desktop/RSTVR
+D:/Users/USER/Documents/GitHub/RSTVR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56295
-Successfully changed project path to: C:/Users/user/Desktop/RSTVR
-C:/Users/user/Desktop/RSTVR
+63511
+Successfully changed project path to: D:/Users/USER/Documents/GitHub/RSTVR
+D:/Users/USER/Documents/GitHub/RSTVR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,109 +47,109 @@ C:/Users/user/Desktop/RSTVR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 71.12 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 85.45 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/user/Desktop/RSTVR/Assets
+[Subsystems] Discovering subsystems at path D:/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Users/USER/Documents/GitHub/RSTVR/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
     Vendor:   NVIDIA
-    VRAM:     12142 MB
+    VRAM:     6052 MB
     Driver:   31.0.15.1694
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Mono path[0] = 'D:/2021.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007938 seconds.
+Register platform support module: D:/2021.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005607 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 73.92 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 91.02 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.526 seconds
+- Completed reload, in  0.605 seconds
 Domain Reload Profiling:
-	ReloadAssembly (526ms)
-		BeginReloadAssembly (59ms)
+	ReloadAssembly (606ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (377ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (433ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (76ms)
+			SetupTypeCache (95ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (234ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (266ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (44ms)
+				InitializePlatformSupportModulesInManaged (48ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (74ms)
+				RefreshPlugins (91ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (80ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005418 seconds.
+Registered in 0.008997 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\RSTVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\RSTVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\USER\Documents\GitHub\RSTVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\USER\Documents\GitHub\RSTVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.006 seconds
+- Completed reload, in  1.120 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1007ms)
-		BeginReloadAssembly (197ms)
+	ReloadAssembly (1121ms)
+		BeginReloadAssembly (223ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (126ms)
-		EndReloadAssembly (717ms)
-			LoadAssemblies (67ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (793ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (216ms)
+			SetupTypeCache (268ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (336ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (354ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (202ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 6 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3690 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (113.9 KB). Loaded Objects now: 4153.
+Unloading 30 unused Assets / (114.0 KB). Loaded Objects now: 4153.
 Memory consumption went from 132.9 MB to 132.8 MB.
-Total: 2.313800 ms (FindLiveObjects: 0.205300 ms CreateObjectMapping: 0.093600 ms MarkObjects: 1.924500 ms  DeleteObjects: 0.089600 ms)
+Total: 2.847800 ms (FindLiveObjects: 0.255500 ms CreateObjectMapping: 0.208300 ms MarkObjects: 2.288300 ms  DeleteObjects: 0.095100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,13 +163,53 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 87737.135835 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(b8c50360b9f5d4944aef360b80833b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(b8c50360b9f5d4944aef360b80833b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32bd9ba4e362a4461c3e4e5d140fff9') in 0.006592 seconds 
+  Time since last request: 405956.586640 seconds.
+  path: Assets/Models
+  artifactKey: Guid(29f58ad06581cb545a63ef9536942101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(29f58ad06581cb545a63ef9536942101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c12614d607da4ac5d7a1ea2d0e3f301') in 0.005410 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prefabs/MessagePref.prefab
-  artifactKey: Guid(5ddd0388004a27a489567a43e517b8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/MessagePref.prefab using Guid(5ddd0388004a27a489567a43e517b8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29877982280ad7d2aad65de552cc5fb7') in 0.059795 seconds 
+  Time since last request: 12.717014 seconds.
+  path: Assets/Models/Лабораторный автотрансформатор трехфазный.fbx
+  artifactKey: Guid(6c028eeb5a0c1694faafb8e8d8289ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Лабораторный автотрансформатор трехфазный.fbx using Guid(6c028eeb5a0c1694faafb8e8d8289ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd401130aaba71e6804df17cd04965f2f') in 0.253881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/штекер.fbx
+  artifactKey: Guid(38b3acabcce290543bf6957ef176f0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/штекер.fbx using Guid(38b3acabcce290543bf6957ef176f0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998d41809a280a6efda5d791ca3352e2') in 0.066748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Трансформатор напряжения ОЛ-110У3 1.fbx
+  artifactKey: Guid(adb88dad27a69504e905a4c4272d61e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Трансформатор напряжения ОЛ-110У3 1.fbx using Guid(adb88dad27a69504e905a4c4272d61e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aacc7a1c097108ac90352d5d0dea543') in 0.073186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/штекер питания.fbx
+  artifactKey: Guid(c417e6d767661b440923217e5819b4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/штекер питания.fbx using Guid(c417e6d767661b440923217e5819b4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97be44f638035c5258c91dcef485376') in 0.013648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/магазин нагрузок МР3025.fbx
+  artifactKey: Guid(ad1f422209b04924f89205fcb22b1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/магазин нагрузок МР3025.fbx using Guid(ad1f422209b04924f89205fcb22b1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c008a8e4a508559246bf4e2fd6d52e7b') in 0.065436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.598860 seconds.
+  path: Assets/Models/префабы/Прибор сравнения КНТ-05.prefab
+  artifactKey: Guid(8cdff22d30f86ab498094391c61b7f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/префабы/Прибор сравнения КНТ-05.prefab using Guid(8cdff22d30f86ab498094391c61b7f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a174943ab25303beb76bdf23a97027') in 0.005513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/префабы/магазин нагрузок МР3025.prefab
+  artifactKey: Guid(6af3cbe29c6c96142ac108b3528f62da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/префабы/магазин нагрузок МР3025.prefab using Guid(6af3cbe29c6c96142ac108b3528f62da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f286e45e43fbcb2519e7b9e65a0ad5') in 0.002593 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
